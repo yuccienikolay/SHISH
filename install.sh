@@ -2,7 +2,7 @@
 
 echo Sup!
 
-sudo apt-get --force-yes --yes install pandoc
+. sudo apt-get --force-yes --yes install pandoc
 
 echo OK!
 
