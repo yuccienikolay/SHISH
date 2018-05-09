@@ -1,14 +1,15 @@
 #!/bin/bash
 
 mkdir docx -p
+cd md
 
 echo
 echo STARTING CONVERT...
 echo
 
-for OUTPUT in $(ls md)
+for OUTPUT in $(ls .)
 do
-	pandoc -s ./md/$OUTPUT -o ./docx/$OUTPUT.docx --reference-doc=./template.docx
+	pandoc -s ./$OUTPUT -o ../docx/$OUTPUT.docx --reference-doc=../template.docx
 	echo OK: $OUTPUT
 done
 
