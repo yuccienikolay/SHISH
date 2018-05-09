@@ -1,10 +1,10 @@
 #!/bin/bash
 
+mkdir docx -p
+
 echo
 echo STARTING CONVERT...
 echo
-
-mkdir docx
 
 for OUTPUT in $(ls md)
 do

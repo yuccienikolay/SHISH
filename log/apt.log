@@ -1,0 +1,9 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+pandoc is already the newest version (1.19.2.1.0-1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.13.0-21 linux-headers-4.13.0-21-generic
+  linux-image-4.13.0-21-generic linux-image-extra-4.13.0-21-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
