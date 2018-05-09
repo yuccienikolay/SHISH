@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir log -p
+
 DIR=$(echo $(pwd)/$line$(dirname "$0")/)
 
 cd $DIR
