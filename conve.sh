@@ -4,6 +4,8 @@ echo
 echo STARTING CONVERT...
 echo
 
+mkdir docx
+
 for OUTPUT in $(ls md)
 do
 	pandoc -s ./md/$OUTPUT -o ./docx/$OUTPUT.docx --reference-doc=./template.docx
